@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { createClient } from "@supabase/supabase-js";
 
 const supabase = createClient(
-  "https://kltoaldepxydsbelhhda.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtsdG9hbGRlcHh5ZHNiZWxoaGRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkwNzQ3NTIsImV4cCI6MjA2NDY1MDc1Mn0.raPq7Q7kxLAFwuJvES6oKFOkSuIuJRcYf5wAkhsamLw"
+  "APIURL",
+  "APIKEY"
 );
 
 function App() {
